@@ -1,4 +1,4 @@
-package com.marat.four;
+package com.marat.tests;
 
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
