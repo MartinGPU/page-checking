@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class DragAndDropFrameTests {
 
     @Test
-    void dragNDrop() {
+    public void dragNDrop() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").dragAndDropTo($("#column-b"));
         sleep(2000);

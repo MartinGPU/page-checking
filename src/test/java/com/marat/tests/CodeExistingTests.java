@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class CodeExistingTests {
 
     @Test
-    void codeExistingCheck() {
+    public void codeExistingCheck() {
         open("https://github.com/");
         $("[name='q']").setValue("Selenide").pressEnter();
         $("[href='/search?q=Selenide&type=wikis']").click();
